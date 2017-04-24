@@ -4,26 +4,30 @@ body {
 
 #page-wrap {
   text-align: left;
-  width: 80%;
+  width: 800;
   margin: 0 auto;
 }
 .question{
-	margin: 0% 40%;
-	padding-top: 2%;
+	margin: 0 300px;
+	padding-top: 30px;
 }
 .answer{
 	border: 5px solid black; 
-	padding: 5% 0;
-	margin: 5% 0;
+	padding: 10px 0;
+	margin: 10px 0;
+	border-radius: 15px;
 
 }
 .score{
 	position: fixed;
     bottom: 0;
-    left: 27.5%;
-    height: 7.5%;
-    width: 7.5%;
+    left: 30px;
+    height: 60px;
+    width: 150px;
     border: 5px solid black;
     border-bottom: 0px;
+    text-align: center;
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
 
 }
